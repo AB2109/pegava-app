@@ -1,13 +1,16 @@
 {
-  "displayName": "Pegava",
+  "displayName": "DTF",
   "expo": {
-    "name": "Pegava",
-    "description": "Aplicativo de relacionamento",
-    "scheme": "pegava",
-    "slug": "pegava",
+    "name": "DTF",
+    "description": "Down to fun",
+    "scheme": "dtf",
+    "slug": "dtf",
     "icon": "./src/assets/images/icon.png",
     "orientation": "portrait",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "androidStatusBar": {
       "barStyle": "light-content",
       "backgroundColor": "#070F26",
@@ -42,6 +45,11 @@
         "wasm",
         "svg"
       ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "86c5ecf8-48f4-4eea-b5a5-8125fdd29a48"
+      }
     }
   }
 }
